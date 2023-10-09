@@ -1,6 +1,6 @@
 //every constructor in sub class has super() by default even if we don't mention it.
 //we use super keyword to represent parent class object.
-
+//Every constructor of sub class has bydefault super() is called.
 package learning;
 
 class A{
@@ -18,6 +18,7 @@ class B extends A{
 	public B(int i) {
 		//even there is no super mentioned here java considers there is a super() here at this place. this is why the default constructor of super class is called.
 		//if we pass a parameter in super(), it will call the parameterized constructor of super class.
+		//super simply means refer to parent class object.
 		super(i);
 		System.out.println("in int B");
 	}

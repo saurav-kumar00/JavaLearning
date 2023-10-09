@@ -1,0 +1,6 @@
+Constraint - it can only have atmost 2 children.
+maximum number of nodes is 2^i
+left i = 2*i
+right i = 2*i+1
+parent of i = i/2
+size of binary tree - total number of nodes in a tree.
